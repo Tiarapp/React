@@ -1,0 +1,87 @@
+.header {
+    background: #6bc93e;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 30px;
+    height: 5px;
+    position: relative;
+}
+
+.logo img {
+    width: 30px;
+}
+
+.troley {
+    position: relative;
+}
+
+.troley img {
+    width: 30px;
+}
+
+.count {
+    position: absolute;
+    top: 82px;
+    left: 320px;
+    background: #2d3c8d;
+    padding: 10px;
+    border-radius: 50%;
+    min-width: 5px;
+    height: 5px;
+    line-height: 5px;
+    text-align: center;
+    color: white;
+    font-size: 11px;
+    bottom: 0px;
+}
+
+.card {
+    border: 1px solid rgba(0, 0, 0, 0.23);
+    padding: 10px;
+    width: 320px;
+    border-radius: 4px;
+    box-shadow: 2px 2px ;
+    margin: 25px;
+}
+
+.card img {
+    margin-left: 25px;
+    position: relative;
+}
+
+.counter {
+    height: 40px;
+    width: 300px;
+}
+
+.counter input {
+    text-align: center;
+    padding: 10px;
+    margin: 0px 6px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.counter button {
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.product-price {
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+
+.count {
+}
